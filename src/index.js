@@ -1,5 +1,4 @@
 const quantifyPerLiter = (km) => (liter) => km / liter;
-
 const spentPerKm = (value) => (km) => value / km;
 
 const r1 = quantifyPerLiter(500)(30);
